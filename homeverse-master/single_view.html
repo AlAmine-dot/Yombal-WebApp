@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yombal - Trouvez la maison de vos rêves.</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header_top">
+      <div class="container">
+
+        <ul class="header_top_list">
+
+          <li>
+            <a href="mailto:info@Yombal.com" class="header_top_link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>info@yombal.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header_top_link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Point E, Dakar</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header_top_social_link">
+
+            <li>
+              <a href="#" class="top_social_link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="top_social_link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="top_social_link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="top_social_link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="header_top_btn">Lorem ipsum</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header_bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" height="40px" alt="Yombal logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Yombal logo">
+            </a>
+
+            <button class="nav_close_btn" data-nav_close_btn aria-label="Close Menu">
+              <ion-icon name="close_outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar_bottom">
+            <ul class="navbar_list">
+
+              <li>
+                <a href="#home" class="navbar_link" data-nav-link>Accueil</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar_link" data-nav-link>À propos</a>
+              </li>
+
+              <li>
+                <a href="#service" class="navbar_link" data-nav-link>Services</a>
+              </li>
+
+              <li>
+                <a href="#property" class="navbar_link" data-nav-link>Propriétés</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar_link" data-nav-link>Villes</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar_link" data-nav-link>Contact</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header_bottom_actions">
+
+          <button class="header_bottom_actions_btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+
+            <span>Search</span>
+          </button>
+
+          <button class="header_bottom_actions_btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+
+            <span>Profile</span>
+          </button>
+
+          <button class="header_bottom_actions_btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+
+            <span>Cart</span>
+          </button>
+
+          <button class="header_bottom_actions_btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+      <!-- 
+        - #CAROUSSEL SECTION
+      -->
+
+      <section class="caroussel" id="single_view">
+        <div class="container">
+          <div class="caroussel_header">
+            <span class="main_title">
+              <ion-icon name="business-outline"></ion-icon>
+              <h2 class="caroussel_header_title">Chambre double dans un bel appartement</h2>
+            </span>
+            <span class="details">
+              <div class="ratings">
+                <p class="iconified_text">
+                  <ion-icon name="star"></ion-icon>
+                  5.0
+                </p>
+                <p>
+                  ·
+                  4 commentaires
+                </p>
+                <p>
+                  ·
+                  Mermoz, Sacré-Coeur, Dakar
+                </p>
+              </div>
+              <div class="social_links">
+                <p class="iconified_text">
+                  <ion-icon name="cloud-upload-outline"></ion-icon>
+                  Partager
+                </p>
+                <p class="iconified_text">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  Enregistrer
+                </p>
+              </div>
+            </span>
+          </div>
+
+          <div class="caroussel_grid">
+            <div class="grid_item" style="background-image: url('assets/images/property-4.jpg')">
+            </div>
+            <div class="grid_item" style="background-image: url('assets/images/property-2.jpg')">
+            </div>
+            <div class="grid_item" style="background-image: url('assets/images/property-3.jpg')">
+            </div>
+            <div class="grid_item" style="background-image: url('assets/images/property-1.jpg')">
+            </div>
+            <div class="grid_item" style="background-image: url('assets/images/property-1.jpg')">
+            </div>
+            <span class="grid_button">
+              <ion-icon name="copy-outline"></ion-icon>
+              Afficher toutes les photos
+            </span>
+          </div>
+
+          <!-- <figure class="caroussel_banner">
+            <img src="./assets/images/caroussel-banner.png" alt="Modern house model" class="w_100">
+          </figure> -->
+        </div>
+
+      </section>
+
+      <section class="property_about">
+        <div class="container">
+          <div class="property_details ">
+            <div class="main_info low_bordered details_container">
+              <div class="info_header">
+                <h2>
+                  Chambre dans appartement · Chez Edouard
+                </h2>
+                <span>
+                  <img src="assets/images/author.jpg" alt="propriétaire img">
+                </span>
+              </div>
+              <div class="info_cards">
+                <div>
+                  <ion-icon name="bed-outline"></ion-icon>
+                  <span>
+                    1 lit double
+                  </span>
+                </div>
+                <div>
+                  <ion-icon name="accessibility-outline"></ion-icon>
+                  <span>
+                    Sur place : l'hôte
+                  </span>
+                </div>
+                <div>
+                  <ion-icon name="flashlight-outline"></ion-icon>
+                  <span>
+                    Salle de bain privée
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="room_info details_container low_bordered">
+              <div>
+                <ion-icon name="home-outline"></ion-icon>
+                <span>
+                  <h3>
+                    Chambre dans appartement
+                  </h3>
+                  <p>
+                    Votre chambre privée dans un logement, avec accès à des espaces partagés.
+                  </p>
+                </span>
+              </div>
+              <div>
+                <ion-icon name="file-tray-full-outline"></ion-icon>
+                <span>
+                  <h3>
+                    Arrivée autonome
+                  </h3>
+                  <p>
+                    Vous pouvez entrer dans les lieux avec une boîte à clé sécurisée.
+                  </p>
+                </span>
+              </div>
+              <div>
+                <ion-icon name="time-outline"></ion-icon>
+                <span>
+                  <h3>
+                    Annulation gratuite pendant 48 heures.
+                  </h3>
+                  <p>
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div class="owner_info details_container low_bordered">
+              <h2>Faites connaissance avec votre hôte</h2>
+              <div class="owner_card">
+                <div class="presentation">
+                  <div class="profile">
+                    <img src="assets/images/author.jpg" alt="">
+                    <h2>Edouard</h2>
+                    <p>Superhôte</p>
+                  </div>
+                  <div class="ratings">
+                    <div>
+                      <h3>
+                        300
+                      </h3>
+                      <small>évaluations</small>
+                    </div>
+                    <hr>
+                    <div>
+                      <h3>
+                        7
+                      </h3>
+                      <small>années d'expérience</small>
+                    </div>
+                    <hr>
+                    <div>
+                      <h3 class="buffered_text">
+                        4.86
+                        <ion-icon name="star"></ion-icon>
+                      </h3>
+                      <small>en note globale</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="owner_about">
+                  <div class="more">
+                    <span>
+                      <ion-icon name="bag-remove-outline"></ion-icon>
+                      <p>Ma profession : coach</p>
+                    </span>
+                    <span>
+                      <ion-icon name="language-outline"></ion-icon>
+                      <p>Langues parlées : Anglais, Français, Italien, Portugais et Espagnol</p>
+                    </span>
+                    <span>
+                      <ion-icon name="globe-outline"></ion-icon>
+                      <p>Je vis à : Valence, Espagne</p>
+                    </span>
+                  </div>
+                  <div class="desc">
+                    <p>Ouverte et communicative, avec un don de gens et ravie de recevoir des amis du monde à la maison.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="property_booking">
+            <div class="booking_card">
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer_top">
+      <div class="container">
+
+        <div class="footer_brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" alt="Yombal logo">
+          </a>
+
+          <p class="section_text">
+            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+          </p>
+
+          <ul class="contact_list">
+
+            <li>
+              <a href="#" class="contact_link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>Point E, Dakar, Sénégal</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact_link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>+77 777 77 77</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@Yombal.com" class="contact_link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>contact@yombal.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social_list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer_link_box">
+
+          <ul class="footer_list">
+
+            <li>
+              <p class="footer_list_title">Compagnie</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">À propos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Villes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Nos produits</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Locations Map</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">FAQs</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Nous contacter</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer_list">
+
+            <li>
+              <p class="footer_list_title">Services</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Commandes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Wish List</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Mon compte</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Termes et conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Offres promotionelles</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer_list">
+
+            <li>
+              <p class="footer_list_title">Clientelle</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Commandes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Wish List</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Mon compte</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Termes et conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer_link">Offres promotionelles</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer_bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">rongeurs2A</a>. Tous droits réservés
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
